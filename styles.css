@@ -1,0 +1,19 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(128, 5px);
+    grid-gap: 1px;
+}
+.cell {
+    width: 5px;
+    height: 5px;
+    border: 1px solid #ddd;
+}
+.alive {
+    background-color: black;
+}
+.dead {
+    background-color: white;
+}
+.snake {
+    background-color: green;
+}
